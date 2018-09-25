@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LeantnJ Members Talking Service</title>
+    <link rel="stylesheet" href=".\style.css">
+
+  </head>
+  <body>
+    <header>
+    <h1>LeantnJ Members Talking Service</h1>
+    </header>
+
+    <div class="container">
+    <nav>
+        <input type="button" value="Leantn" onclick="func_prompt()" /><br><br>
+        <input type="button" value="Alex" onclick="alert('you are already in Alex Room')" /><br><br>
+        <input type="button" value="DongSin" onclick="func_prompt3()" /><br><br>
+        <a href=".\Home.html" class="home">Home</a>
+    </nav>
+    <main>
+      <img src=".\profile.png" class="chater">
+      <h1>Alex. Kim</h1>
+      <h3>The  of LeantJ</h3>
+    </main>
+    <aside>
+      <br>
+      <a href=".\alextalk.html"><input type="button" value="Join Talking Server" class="ex"></a>
+    </aside>
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <script>
+    function func_detail(){
+      window.open('https://janghs0484.github.io/SAC/SAC.main2.html','ot');
+    }
+    function func_prompt3() {
+      if(prompt('Password') === 'god DG'){
+        window.open('./DongSin.html','ot');
+      } else {
+        alert('Wrong Password');
+      }
+    }
+      function func_prompt() {
+        if(prompt('Password') === 'janghs0501'){
+          window.open('./Leantn.html','ot');
+        } else {
+          alert('Wrong Password');
+        }
+      }
+      function func_prompt2() {
+        if(prompt('Password') === 'Alex1234'){
+          window.open('./Alex.html','ot');
+        } else {
+          alert('Wrong Password');
+        }
+      }
+    </script>
+  </body>
+</html>

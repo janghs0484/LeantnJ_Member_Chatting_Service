@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LeantnJ Members Talking Service</title>
+    <link rel="stylesheet" href=".\style.css">
+
+  </head>
+  <body>
+    <header>
+    <h1>LeantnJ Members Talking Service</h1>
+    </header>
+
+    <div class="container">
+    <nav>
+        <input type="button" value="Leantn" onclick="func_prompt()" /><br><br>
+        <input type="button" value="Alex" onclick="func_prompt2()" /><br><br>
+        <input type="button" value="DongSin" onclick="func_prompt3()" /><br><br>
+        <a href=".\Home.html" class="home">Home</a>
+    </nav>
+    <main>
+      <br>
+      <h2>What is LeantnJ?</h2>
+      <p>LeantnJ is an economic group. They connect people to people by making website or applications.</p><br>
+      <h2>S.A.C information</h2>
+      <p>S.A.C means "sellers and consumers". It helps people to sell their goods and buy some products easily.</p>
+      <input type="button" value="Visit S.A.C" onclick="func_detail()" class="visitsac"><br><br><br>
+      <div class="news">
+      <h1>NEWS</h1><br>
+      <h2>[2018-9-~~]</h2><br>
+      <p>Alex fixed 'The Teleport Bug(Alex.io)'[2018-9-16]</p>
+      <p>Leantn started developing 'S.A.C(S.A.C)'[2018-9-17]</p>
+      <p>Alex fixed 'The Monitor Error Bug(Alex.io)'[2018-9-19]</p>
+      <p>Alex fixed 'The Infinity Bullet Bug(Alex.io)'[2018-9-20]</p>
+      <p>Alex added 'The Crasging(Alex.io)'[2018-9-22]</p>
+      <p>Leantn added 'The Login Form(S.A.C)'[2018-9-24]</p>
+      <p>DongSin. Kim joined the group as Mascout.[2018-9-25]</p>
+      <br>
+    </div>
+    </main>
+    <aside>
+
+    </aside>
+  </div>
+
+    <footer>
+
+    </footer>
+
+    <script>
+    function func_detail(){
+      window.open('https://janghs0484.github.io/SAC/SAC.main2.html','ot');
+    }
+    function func_prompt3() {
+      if(prompt('Password') === 'god DG'){
+        window.open('./DongSin.html','ot');
+      } else {
+        alert('Wrong Password');
+      }
+    }
+      function func_prompt() {
+        if(prompt('Password') === 'janghs0501'){
+          window.open('./Leantn.html','ot');
+        } else {
+          alert('Wrong Password');
+        }
+      }
+      function func_prompt2() {
+        if(prompt('Password') === 'Alex1234'){
+          window.open('./Alex.html','ot');
+        } else {
+          alert('Wrong Password');
+        }
+      }
+    </script>
+  </body>
+</html>

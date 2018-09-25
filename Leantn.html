@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LeantnJ Members Talking Service</title>
+    <link rel="stylesheet" href=".\style.css">
+
+  </head>
+  <body>
+    <header>
+    <h1>LeantnJ Members Talking Service</h1>
+    </header>
+
+    <div class="container">
+    <nav>
+        <input type="button" value="Leantn" onclick="alert('you are already in Leantn Room')" /><br><br>
+        <input type="button" value="Alex" onclick="func_prompt2()" /><br><br>
+        <input type="button" value="DongSin" onclick="func_prompt3()" /><br><br>
+        <a href=".\Home.html" class="home">Home</a>
+    </nav>
+    <main>
+      <img src=".\profile.png" class="chater">
+      <h1>Leantn. Jang</h1>
+      <h3>The CEO of LeantJ</h3><br>
+      <p class="p1">Leantn. Jang started E_Business in 2018-9-10. He has developed his website and business. He studies at school and runs his business at the same <br><br>
+                    time. His first business is web_market business which helps people to sell their products easily. He is 16-year-old. He was born in 2003 in Korea. <br><br>
+                    He said, "There is no person who is perpect." The goal of Leantn is to be a super_rich. His main income is from advertise. He has studied <br><br>
+                    HTML, CSS, JavaScript. He is noob. His favorite language is HTML and CSS. He built the S.A.C by himself.
+       </p>
+    </main>
+    <aside>
+      <br>
+      <a href=".\leantntalk.html"><input type="button" value="Join Talking Server"></a><br><br>
+      <a href="https://janghs0484.github.io/SAC/SAC.main2.html"><input type="button" value="Visit S.A.C"></a>
+    </aside>
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <script>
+    function func_detail(){
+      window.open('https://janghs0484.github.io/SAC/SAC.main2.html','ot');
+    }
+    function func_prompt3() {
+      if(prompt('Password') === 'god DG'){
+        window.open('./DongSin.html','ot');
+      } else {
+        alert('Wrong Password');
+      }
+    }
+      function func_prompt() {
+        if(prompt('Password') === 'janghs0501'){
+          window.open('./Leantn.html','ot');
+        } else {
+          alert('Wrong Password');
+        }
+      }
+      function func_prompt2() {
+        if(prompt('Password') === 'Alex1234'){
+          window.open('./Alex.html','ot');
+        } else {
+          alert('Wrong Password');
+        }
+      }
+    </script>
+  </body>
+</html>
